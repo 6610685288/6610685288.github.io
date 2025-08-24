@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #cbf2f7;
+    margin: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+ul {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;         
+    border: 4px solid #2a5d84;   
+    box-shadow: 0 8px 24px rgba(42, 93, 132, 0.25); 
+    width: 200px;
+    height: auto;
+}
+
+.game-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.games-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 เกมต่อแถว */
+    gap: 30px;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.small-games-list {
+    display: inline-block;
+    background: #9dcdeb;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 1em;
+    text-align: left;
+}
